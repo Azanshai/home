@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #f1 {
+        height: 400px;
+        width: 640px;
+        position: relative;
+        margin-top: 150px;
+        margin-left: 30%;
+        border: 1px solid grey;
+        background-color: white;
+        padding-left: 15px;
+        display: flex;
+        box-shadow: 4px 3px 19px 8px rgba(0, 0, 0, 0.39);
+        -webkit-box-shadow: 4px 3px 19px 8px rgba(0, 0, 0, 0.39);
+        -moz-box-shadow: 4px 3px 19px 8px rgba(0, 0, 0, 0.39);
+    }
+
+    #a {
+        color: blue;
+    }
+
+    label {
+        font-size: large;
+    }
+
+    #l1 {
+        border: white;
+        font-size: medium;
+        outline: none;
+    }
+
+    #l2 {
+        border: white;
+        font-size: medium;
+        outline: none;
+    }
+
+    #l4 {
+        width: 100px;
+        height: 40px;
+        background-color: white;
+        color: blue;
+        border: 1px solid blue;
+        font-size: medium;
+        cursor: pointer;
+    }
+
+    #l4:hover {
+        background-color: blue;
+        color: white;
+    }
+
+   
+
+    #c1 a {
+        position: absolute;
+        cursor: pointer;
+        color: rgb(65, 60, 60);
+        text-decoration: none;
+        font-size: large;
+        font-weight: bold;
+    }
+
+    #c2 a {
+        position: absolute;
+        cursor: pointer;
+        color: rgb(65, 60, 60);
+        text-decoration: none;
+        font-size: large;
+        font-weight: bold;
+        left: 60%;
+    }
+
+    #c3 a {
+        cursor: pointer;
+        position: absolute;
+        color: blue;
+        left: 85%;
+        font-size: large;
+        font-weight: bold;
+    }
+</style>
+
+<body>
+    <div id="f1">
+        <form action="" method="get">
+            <h1 id="a">Login with your username/email address</h1>
+
+
+            <label for="email"><b>Username/Email*</b></label><br><br>
+            <input type="email" name="name" placeholder="Username/Email" id="l1">
+            <hr>
+
+            <label for="password"><b>Password*</b></label><br><br>
+            <input type="password" name="name" placeholder="Your Password" id="l2">
+            <hr><br>
+            <input type="submit" value="Log In" id="l4"><br><br><br>
+
+            <div id="c1">
+                <a href="">Forgot Password?</a>
+            </div>
+            <div id="c2">
+                <a href="">Don't Have Account?</a>
+            </div>
+            <div id="c3">
+                <a href="">Click Here</a>
+
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
